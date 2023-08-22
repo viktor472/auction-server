@@ -1,10 +1,9 @@
 // npm packeges
 const mongoose = require("mongoose");
 
-
 // Mongose vew of data
 const ItemSchema = mongoose.Schema({
-  title: {
+  titel: {
     type: String,
     required: true,
   },
